@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel = "stylesheet" href = "./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+
+    <header>
+        <a href = "#" class = "logo">
+            <i class='bx bx-dumbbell'></i>
+        </a>
+    
+        <ul class = "navbar">
+            <li><a  href = "./index.html">Home</a></li>
+            <li><a href = "#">About Us</a></li>
+            <li><a href = "./nutrition.html">Nutrition</a></li>
+            <li><a href = "./calculator.html" class = "active">Calculator</a></li>
+            <li><a href = "#">Contact</a></li>
+        </ul>
+
+        <div class="main">
+            <a href = "./signin.html" class = "user"><i class = "ri-user-fill"></i>Sign In</a>
+            <a href = "./register.html">Register</a>
+            <div class = "bx bx-menu" id = "menu-icon"></div>
+        </div>
+    </header>
+
+<main>
+<h1>Welcome to our BMI Index Calculator</h1>
+
+<div class = "bmi-container">
+
+<h3>Enter your height here:</h3>
+<input type = "number" class = "height-field">
+<h3>Enter your weight here:</h3>
+<input type = "number" class = "weight-field">
+<h3>Result</h3>
+</div>
+
+<button>Submit</button>
+
+
+</main>
+    
+
+    <script src = "./script.js"></script>
+    <script src = "calc.js"></script>
+</body>
+</html>
